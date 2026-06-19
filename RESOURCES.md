@@ -64,6 +64,10 @@ A curated collection of official documentation, community resources, and helpful
 - GitHub: https://github.com/snyk/agentic-integration-wrappers
 - Focus: Dependency vulnerability scanning
 
+**Metasploit Orchestrator**
+- GitHub: https://github.com/hireblackout/metasploit-orchestrator
+- Focus: AI-powered Metasploit exploitation workflows
+
 ### Tier 3: Databases
 
 **Supabase**

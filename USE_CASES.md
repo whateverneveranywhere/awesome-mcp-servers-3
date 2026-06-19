@@ -21,6 +21,7 @@ Find the perfect MCP setup for your specific workflow.
 6. **Gemini CLI Security** - Catch security issues in code changes
 7. **Chrome DevTools** - Test XSS, CSRF, CSP violations in web apps
 8. **Snyk** - Audit dependency vulnerabilities
+9. **Metasploit Orchestrator** - AI-driven Metasploit exploitation, post-exploitation, and session management
 
 ### Configuration
 
@@ -34,6 +35,14 @@ Find the perfect MCP setup for your specific workflow.
       "command": "npx",
       "args": ["-y", "@github/github-mcp-server"],
       "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "your_token"}
+    },
+    "metasploit": {
+      "command": "python",
+      "args": ["/path/to/metasploit-orchestrator/server.py"],
+      "env": {
+        "MSF_PASSWORD": "yourpassword",
+        "MSF_SSL": "false"
+      }
     }
   }
 }
@@ -47,6 +56,7 @@ Find the perfect MCP setup for your specific workflow.
 3. Use Filesystem to examine target code
 4. Use GitHub to document findings
 5. Use Chrome DevTools to manually test findings
+6. Metasploit Orchestrator: Run exploit → get session → dump hashes
 ```
 
 ---

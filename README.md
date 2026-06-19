@@ -121,6 +121,7 @@ For cybersecurity, code quality, and vulnerability management.
 | **SonarQube** | 174 | ⭐⭐⭐⭐ | Static code analysis + AI | Enterprise-grade |
 | **Code Review** | 186 | ⭐⭐⭐⭐ | PR code analysis | Google |
 | **Snyk** | 7 | ⭐⭐⭐⭐ | Dependency vulnerability scanning | Security-focused |
+| **Metasploit Orchestrator** | — | ⭐⭐⭐⭐ | Automated exploitation, pen testing | hireblackout |
 | **Chrome DevTools (Automation)** | 8 | ⭐⭐⭐⭐ | 91% accuracy element detection | diegorafs fork |
 
 **Best for cybersecurity research:**
@@ -128,6 +129,7 @@ For cybersecurity, code quality, and vulnerability management.
 2. SonarQube → Deep code quality analysis
 3. Chrome DevTools → Frontend security testing
 4. Snyk → Dependency auditing
+5. Metasploit Orchestrator → AI-driven Metasploit exploitation
 
 ---
 
